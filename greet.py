@@ -1,4 +1,7 @@
 import datetime
+
+# ------- comment added -------
+
 def greet(name):
  now = datetime.datetime.now()
  return f"Hello, {name}! Current time is {now:%Y-%m-%d %H:%M:%S}"
